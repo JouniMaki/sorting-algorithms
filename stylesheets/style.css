@@ -1,0 +1,37 @@
+html {
+	background-color: #eeeeee;
+}
+
+body {
+    position: absolute;
+    left: calc(50% - 550px);
+	padding: 30px 50px 30px 50px;
+	background-color: #ffffff;
+    border: 3px solid #dddddd;
+    border-radius: 10px 10px 10px 10px;
+}
+
+h1 {
+	text-align: center;
+	color: #000000;
+	font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#myCanvas {
+    border: 1px dotted #ddddff;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: #bbbbbb;
+}
+
+button:disabled {
+    background-color: #999999;
+}
